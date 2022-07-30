@@ -1,3 +1,4 @@
+from turtle import color
 import dash
 from dash import dcc
 from dash import html
@@ -47,4 +48,4 @@ Comunidad = df_poblacion['Comunidad'].tolist()
 Población = df_poblacion['Población'].tolist()
 Capital   = df_poblacion['Capital'].tolist()
 
-
+color_graf = ['orange', '#dd1e35', 'green', '#e55467']
